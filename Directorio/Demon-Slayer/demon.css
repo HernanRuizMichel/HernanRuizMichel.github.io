@@ -1,0 +1,137 @@
+:root{
+    --Color-p: rgb(255, 153, 0);
+    --Font-f:'Roboto', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Navegacion */
+.nav-header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    padding-right: 3vw;
+}
+.nav-logo-p{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 2.3vh;
+}
+#logo-p {
+    width: 100%;
+    height: auto;
+}
+
+.nav-ul{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-ul li {
+    display: inline-block;
+    list-style: none;
+}
+.nav-ul a {
+    text-decoration: none;
+    color: var(--Color-p);
+    font-size: 1.3rem;
+    font-family: var(--Font-f);
+}
+
+.nav-logo-s{
+    width: 10%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo-s {
+    width: 100%;
+    height: auto;
+}
+/* Navegacion */
+
+/* descripcion */
+.main{
+    background-color: var(--Color-p);
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-descripcion {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    font-family: var(--Font-f);
+    text-align: left;
+
+}
+.main-descripcion picture, div.descripcion {
+    border: 1px black solid;
+}
+.picture {
+    width: 30%;
+    height: auto;
+    background-color: black;
+}
+.portada{
+    width: 100%;
+    height: auto;
+}
+.descripcion {
+    width: 70%;
+}
+.descripcion p {
+    margin-left: 2vw;
+}
+.descripcion-b {
+    text-align: center;
+}
+/* descripcion */
+
+/* episodios */
+
+.section-episodios {
+    flex-grow: 1;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ul-episodios {
+    width: 100%;
+    font-family: var(--Font-f);
+}
+.ul-episodios li{
+    width: 100%;
+    list-style: none;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border: 1px black solid;
+    background-color: var(--Color-p);
+}
+.ul-episodios a{
+    text-decoration: none;
+    color: black;
+}
+.lista-episodios{
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* episodios */
