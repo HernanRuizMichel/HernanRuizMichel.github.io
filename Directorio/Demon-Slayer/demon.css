@@ -96,6 +96,7 @@ html {
 }
 .descripcion {
     width: 70%;
+    flex-grow: 1;
 }
 .descripcion p {
     margin-left: 2vw;
@@ -135,3 +136,35 @@ html {
     text-align: center;
 }
 /* episodios */
+@media (min-width:600px) {
+    .nav-ul a{
+        font-size: 2rem;
+    }
+    /* .redireccion {
+        max-width: 300px;
+    }
+    .figure {
+        font-size: 2rem;
+    } */
+    .nav-logo-p {
+        max-width: 11.4vw;
+    }
+    .nav-logo-s {
+        max-width: 5vw;
+    }
+    .descripcion-b {
+        font-size: 3rem;
+    }
+    .descripcion {
+        font-size: 2rem;
+    }
+    .descripcion p {
+        padding-right: 1vw;
+    }
+    .picture {
+        max-width: 20vw;
+    }
+    .ul-episodios a {
+        font-size: 1.5rem;
+    }
+}

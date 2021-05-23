@@ -114,7 +114,7 @@ html {
 .main-section {
     background-color: var(--Color-p);
     width: 100%;
-    height: 90vh;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
@@ -136,3 +136,20 @@ html {
     border-radius: 3px;
 }
 
+@media (min-width:600px) {
+    .nav-ul a{
+        font-size: 2rem;
+    }
+    .redireccion {
+        max-width: 300px;
+    }
+    .figure {
+        font-size: 2rem;
+    }
+    .nav-logo-p {
+        max-width: 11.4vw;
+    }
+    .nav-logo-s {
+        max-width: 5vw;
+    }
+}
