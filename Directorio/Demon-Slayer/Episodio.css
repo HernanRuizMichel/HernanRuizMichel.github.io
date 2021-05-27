@@ -3,6 +3,7 @@
     --Font-f:'Roboto', sans-serif;
 }
 
+
 *{
     padding: 0;
     margin: 0;
@@ -84,8 +85,73 @@ html {
     margin-top: 5vh;
 }
 
+.lista-de-episodios {
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+    color: var(--Color-p);
+    position: relative;
+    right: 30vw;
+    bottom: 5vh;
+    text-decoration: none;
+    font-family: var(--Font-f);
+    font-size: 1rem;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.ul-servers {
+    display: flex;
+}
+.ul-servers li{
+    width: fit-content;
+    height: auto;
+    list-style: none;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 2vw;
+}
+.boton {
+    text-decoration: none;
+    color: var(--Color-p);
+    font-family: var(--Font-f);
+    font-size: 1.6rem;
+}
+
 .video {
     margin-top: 5vh;
+}
+
+.sig-ant {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.ul-sig-ant {
+    display: flex;
+}
+.ul-sig-ant li{
+    width: fit-content;
+    height: auto;
+    list-style: none;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 2vw;
+}
+.sig-ant-boton {
+    text-decoration: none;
+    color: var(--Color-p);
+    font-family: var(--Font-f);
+    font-size: 1.6rem;
 }
 
 /* Main */
