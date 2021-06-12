@@ -148,7 +148,6 @@ html {
     height: fit-content;
     padding: 5px;
     text-align: center;
-    border: solid black;
     background-color: var(--Color-p);
     font-family: var(--Font-f);
 }
