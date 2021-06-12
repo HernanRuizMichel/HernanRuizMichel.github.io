@@ -82,7 +82,7 @@ html {
 .title {
     font-family: var(--Font-f);
     text-align: center;
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 .lista-de-episodios {
@@ -93,7 +93,7 @@ html {
     color: var(--Color-p);
     position: relative;
     right: 35vw;
-    bottom: 9.5vh;
+    bottom: 11.5vh;
     text-decoration: none;
     font-family: var(--Font-f);
     font-size: 1rem;
@@ -168,5 +168,26 @@ html {
     .video {
         max-width: 45%;
         height: 60vh;
+    }
+    .title {
+        font-family: var(--Font-f);
+        text-align: center;
+        margin-top: 7vh;
+    }
+    
+    .lista-de-episodios {
+        width: fit-content;
+        height: fit-content;
+        background-color: black;
+        padding: 5px 5px 5px 5px;
+        color: var(--Color-p);
+        position: relative;
+        right: 35vw;
+        bottom: 8.5vh;
+        text-decoration: none;
+        font-family: var(--Font-f);
+        font-size: 1rem;
+        border: 1px black solid;
+        border-radius: 5px;
     }
 }
