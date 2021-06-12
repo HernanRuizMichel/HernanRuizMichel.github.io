@@ -82,7 +82,7 @@ html {
 .title {
     font-family: var(--Font-f);
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 8vh;
 }
 
 .lista-de-episodios {
@@ -92,8 +92,8 @@ html {
     padding: 5px 5px 5px 5px;
     color: var(--Color-p);
     position: relative;
-    right: 30vw;
-    bottom: 6.5vh;
+    right: 35vw;
+    bottom: 9.5vh;
     text-decoration: none;
     font-family: var(--Font-f);
     font-size: 1rem;
