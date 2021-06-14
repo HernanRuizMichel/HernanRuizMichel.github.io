@@ -69,5 +69,5 @@ function siguienteEpisodio(){
 
 function anteriorEpisodio(){
     let epi = parseInt(id, 10) - 1;
-    window.location="https://www.localhost:3000/Directorio/Demon-Slayer/Episodio" + epi;
+    window.location="https://www.animefree.ga/Directorio/Demon-Slayer/Episodio" + epi;
 }
