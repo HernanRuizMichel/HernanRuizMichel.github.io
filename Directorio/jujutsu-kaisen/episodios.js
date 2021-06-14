@@ -64,10 +64,10 @@ function mostrarServer2(){
 
 function siguienteEpisodio(){
     let epi = parseInt(id, 10) + 1;
-    window.location="https://animefree.ga/Directorio/jujutsu-kaisen/Episodio" + epi;
+    window.location="https://www.animefree.ga/Directorio/jujutsu-kaisen/Episodio" + epi;
 }
 
 function anteriorEpisodio(){
     let epi = parseInt(id, 10) - 1;
-    window.location="https://animefree.ga/Directorio/jujutsu-kaisen/Episodio" + epi;
+    window.location="https://www.animefree.ga/Directorio/jujutsu-kaisen/Episodio" + epi;
 }
