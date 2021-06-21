@@ -14,6 +14,8 @@ html {
     font-size: 62.5%;
 }
 body {
+    position: relative;
+    z-index: 1;
     background-color: var(--Color-p);
 }
 
@@ -25,6 +27,7 @@ body {
     height: 15vh;
     background-color: black;
     padding-right: 3vw;
+    z-index: 6;
 }
 .nav-logo-p{
     width: 30%;
@@ -56,7 +59,80 @@ body {
     font-size: 1.3rem;
     font-family: var(--Font-f);
 }
+#ctn-bars-search{
+    /* position: fixed;
+    top: -10px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    z-index: 9;
+    transition: all 600ms; */
+    position: fixed;
+    background-color: var(--Color-p);
+    width: 100%;
+    z-index: 9;
+    transition: all 400ms;
+    
+}
 
+#ctn-bars-search input{
+    /* display: block;
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    outline: 0; */
+    background-color: var(--Color-p);
+    width: 100%;
+    height: auto;
+    border: 1px black solid;
+    outline: 0;
+    padding: 5px;
+    font-size: 1.7rem;
+    font-family: var(--Font-f);
+    transition: all 400ms;
+    display: none;
+}
+#ctn-bars-search input::placeholder { 
+    color: rgb(50, 50, 50);
+    opacity: 1; 
+    font-size: 1.7rem;
+    font-family: var(--Font-f);
+  }
+  #box-search{
+    position: fixed;
+    width: 100%;
+    top: 18.5vh;
+    background: var(--Color-p);
+    z-index: 8;
+    overflow: hidden;
+    display: none;
+}
+#box-search li a{
+    display: block;
+    color: black;
+    margin-top: 5px;
+    padding: 1vh 3vw;
+    text-decoration: none;
+    border-bottom: 0.5px black solid;
+    font-size: 1.7rem;
+    font-family: var(--Font-f);
+}
+#box-search li a i{
+    margin-right: 10px;
+    color: black;
+}
+
+
+#cover-ctn-search{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 5;
+    display: none;
+}
 .nav-logo-s{
     width: 10%;
     height: auto;
@@ -69,6 +145,7 @@ body {
     height: auto;
 }
 /* Navegacion */
+
 
 
 /* Main */
@@ -189,7 +266,7 @@ body {
         bottom: 8.5vh;
         text-decoration: none;
         font-family: var(--Font-f);
-        font-size: 1rem;
+        font-size: 1.6rem;
         border: 1px black solid;
         border-radius: 5px;
     }

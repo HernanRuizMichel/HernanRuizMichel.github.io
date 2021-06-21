@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"> 
+<html lang="es"> 
  <head> 
   <meta charset="UTF-8"> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
@@ -9,23 +9,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./Episodio.css"> 
   <link rel="stylesheet" href="./servers.css"> 
+  <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script> 
   <title id="titulo">Jujutsu kaisen 21</title> 
  </head> 
  <body> 
   <header> 
-   <nav class="nav-header"> <picture class="nav-logo-p"> 
+   <nav class="nav-header" id="navegacion"> <picture class="nav-logo-p"> 
      <img id="logo-p" src="../../img/Logo-p.png" alt="Anime Free Logo"> 
     </picture> 
     <ul class="nav-ul"> 
      <li><a href="../Directorio">Directorio</a></li> 
      <li><a href="../../">Inicio</a></li> 
-     <li><a href="">Estrenos</a></li> 
+     <li><a href="javascript:void(0)" class="nav-header--buscador" id="icon-search"><i class="fas fa-search"></i></a></li> 
     </ul> <picture class="nav-logo-s"> 
      <img id="logo-s" src="../../img/logo-s.png" alt="Anime Free Logo Secundario"> 
     </picture> 
    </nav> 
+   <div id="ctn-bars-search"> 
+    <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?"> 
+   </div> 
+   <ul id="box-search"> 
+    <li><a href="../ijiranaide-nagatorosan/ijiranaide-nagatorosan"><i class="fas fa-search"></i>Ijiranaide Nagatoro san</a></li> 
+    <li><a href="../jujutsu-kaisen/jujutsu"><i class="fas fa-search"></i>Jujutsu Kaisen</a></li> 
+    <li><a href="../Demon-Slayer/demon.html"><i class="fas fa-search"></i>Kimetsu no Yaiba</a></li> 
+    <li id="no-encontrado-l"><a id="no-encontrado-a" href="mailto:performandbest@gmail.com?" target="_blank">Anime no encontrado verifica si lo escribiste bien.Es posible que no lo tengamos en nuestro catagolo mandanos un mensaje a: performandbest@gmail.com si quieres que lo añadamos</a></li> 
+   </ul> 
+   <div id="cover-ctn-search"></div> 
   </header> 
-  <main class="main"> 
+  <main class="main" id="main-contenedor"> 
    <h1 class="title">Jujutsu kaisen 21</h1> 
    <div class="div-lista-episodios"> 
    </div> <a href="./jujutsu" class="lista-de-episodios">Lista de episodios</a> 
@@ -49,6 +60,7 @@
    <h1 id="id">21</h1> 
   </main> 
   <script src="./episodios.js">
-    </script>  
+    </script> 
+  <script src="../../buscador.js"></script>  
  </body>
 </html>
