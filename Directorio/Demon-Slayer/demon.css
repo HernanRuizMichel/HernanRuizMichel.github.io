@@ -88,7 +88,7 @@ body {
     border: 1px black solid;
     outline: 0;
     padding: 5px;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: var(--Font-f);
     transition: all 400ms;
     display: none;
@@ -96,7 +96,7 @@ body {
 #ctn-bars-search input::placeholder { 
     color: rgb(50, 50, 50);
     opacity: 1; 
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: var(--Font-f);
   }
   #box-search{
@@ -115,7 +115,7 @@ body {
     padding: 1vh 3vw;
     text-decoration: none;
     border-bottom: 0.5px black solid;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: var(--Font-f);
 }
 #box-search li a i{
@@ -246,5 +246,48 @@ body {
     }
     .ul-episodios a {
         font-size: 1.5rem;
+    }
+    #ctn-bars-search input{
+        /* display: block;
+        width: 1200px;
+        margin: auto;
+        padding: 10px;
+        font-size: 18px;
+        outline: 0; */
+        background-color: var(--Color-p);
+        width: 100%;
+        height: auto;
+        border: 1px black solid;
+        outline: 0;
+        padding: 5px;
+        font-size: 1.7rem;
+        font-family: var(--Font-f);
+        transition: all 400ms;
+        display: none;
+    }
+    #ctn-bars-search input::placeholder { 
+        color: rgb(50, 50, 50);
+        opacity: 1; 
+        font-size: 1.7rem;
+        font-family: var(--Font-f);
+      }
+      #box-search{
+        position: fixed;
+        width: 100%;
+        top: 18.5vh;
+        background: var(--Color-p);
+        z-index: 8;
+        overflow: hidden;
+        display: none;
+    }
+    #box-search li a{
+        display: block;
+        color: black;
+        margin-top: 5px;
+        padding: 1vh 3vw;
+        text-decoration: none;
+        border-bottom: 0.5px black solid;
+        font-size: 1.7rem;
+        font-family: var(--Font-f);
     }
 }
