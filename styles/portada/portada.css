@@ -1,0 +1,116 @@
+:root{
+    --Color-p: rgb(255, 153, 0);
+    --Font-f:'Roboto', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    z-index: 1;
+    background-color: var(--Color-p);
+}
+
+/* Navegacion */
+/* Navegacion */
+
+/* descripcion */
+.main{
+    background-color: var(--Color-p);
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-descripcion {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    font-family: var(--Font-f);
+    text-align: left;
+
+}
+.main-descripcion picture, div.descripcion {
+    border: 1px black solid;
+}
+.picture {
+    width: 30%;
+    height: auto;
+    background-color: black;
+}
+.portada{
+    width: 100%;
+    height: auto;
+}
+.descripcion {
+    width: 70%;
+    flex-grow: 1;
+}
+.descripcion p {
+    margin-left: 2vw;
+}
+.descripcion-b {
+    text-align: center;
+}
+/* descripcion */
+
+/* episodios */
+
+.section-episodios {
+    flex-grow: 1;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ul-episodios {
+    width: 100%;
+    font-family: var(--Font-f);
+}
+.ul-episodios li{
+    width: 100%;
+    list-style: none;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border: 1px black solid;
+    background-color: var(--Color-p);
+}
+.ul-episodios a{
+    text-decoration: none;
+    color: black;
+}
+.lista-episodios{
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* episodios */
+
+#tipo_de_archivo {
+    display: none;
+}
+
+@media (min-width:600px) {
+    .descripcion-b {
+        font-size: 3rem;
+    }
+    .descripcion {
+        font-size: 2rem;
+    }
+    .descripcion p {
+        padding-right: 1vw;
+    }
+    .picture {
+        max-width: 20vw;
+    }
+    .ul-episodios a {
+        font-size: 1.5rem;
+    }
+}
