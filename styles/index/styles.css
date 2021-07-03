@@ -88,6 +88,7 @@ body {
 .portada {
     width: 100%;
     border-radius: 3px;
+    max-height: 255px;
 }
 #tipo_de_archivo{
     display: none;
@@ -100,5 +101,8 @@ body {
     }
     .figure {
         font-size: 2rem;
+    }
+    .portada {
+        max-height: 370px;
     }
 }

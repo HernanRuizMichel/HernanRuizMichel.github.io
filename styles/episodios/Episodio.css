@@ -111,6 +111,11 @@ body {
 }
 
 /* Main */
+
+#tipo_de_archivo {
+    display: none;
+}
+
 @media (min-width:600px) {
     .video {
         max-width: 45%;

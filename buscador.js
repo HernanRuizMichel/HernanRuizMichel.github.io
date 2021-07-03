@@ -22,7 +22,10 @@ let animes = [
 
     {nombre: 'Jujutsu Kaisen', index_ruta:'./Directorio/jujutsu-kaisen/jujutsu', directorio_ruta:'./jujutsu-kaisen/jujutsu', portada_ruta:'../jujutsu-kaisen/jujutsu', episodio_ruta:'../jujutsu-kaisen/jujutsu'},
 
-    {nombre: 'Kimetsu no Yaiba', index_ruta:'./Directorio/Demon-Slayer/demon', directorio_ruta:'./Demon-Slayer/demon', portada_ruta:'../Demon-Slayer/demon', episodio_ruta:'../Demon-Slayer/demon'}
+    {nombre: 'Kimetsu no Yaiba', index_ruta:'./Directorio/Demon-Slayer/demon', directorio_ruta:'./Demon-Slayer/demon', portada_ruta:'../Demon-Slayer/demon', episodio_ruta:'../Demon-Slayer/demon'},
+
+    {nombre: 'Tokyo Revengers', index_ruta:'./Directorio/tokyo-revengers/tokyo', directorio_ruta:'./tokyo-revengers/tokyo', portada_ruta:'../tokyo-revengers/tokyo', episodio_ruta:'../tokyo-revengers/tokyo'}
+
 ];
 
 function mostrar_ocultar_buscador(){
