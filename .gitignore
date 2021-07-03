@@ -5,3 +5,4 @@ java/*
 java/
 arrancar_servido.bat
 arrancar-servidor.sh
+prepros.config
