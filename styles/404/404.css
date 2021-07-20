@@ -1,0 +1,65 @@
+:root{
+    --Color-p: rgb(255, 153, 0);
+    --Font-f:'Roboto', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--Font-f);
+}
+body {
+    position: relative;
+    z-index: 1;
+    background-color: var(--Color-p);
+}
+
+main div {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-p-404 {
+    text-align: center;
+    font-size: 25vw;
+    line-height: 23vw;
+}
+.div-p-text {
+    text-align: center;
+    font-size: 3.5vw;
+    color: rgba(37, 16, 16, 0.8);
+}
+.div-a-volver {
+    width: fit-content;
+    min-width: 96px;
+    max-width: 350px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--Color-p);
+    font-size: 1.6rem;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+@media (min-width: 600px) {
+    .div-p-text {
+        font-size: 2.8vw;
+    }
+    .div-a-volver {
+        font-size: 1.8rem;
+        background-color: black;
+        border-radius: 8px;
+        margin-top: 20px;
+        padding: 7px 7px 7px 7px;
+    }
+}
