@@ -39,7 +39,7 @@ function ocultarAnterior(){
 ocultarSiguiente();
 
 function ocultarSiguiente(){
-    if (id == 26) {
+    if (id == 10000) {
         botonSiguienteO.style.display = "none";
     }
 }
@@ -63,11 +63,21 @@ function mostrarServer2(){
 }
 
 function siguienteEpisodio(){
-    let epi = parseInt(id, 10) + 1;
-    window.location="https://www.animefree.ga/Directorio/Demon-Slayer/Episodio" + epi;
+    if(id == 26){
+        window.location="https://www.animefree.ga/Directorio/Demon-Slayer/Pelicula";
+    } else {
+        let epi = parseInt(id, 10) + 1;
+        window.location="https://www.animefree.ga/Directorio/Demon-Slayer/Episodio" + epi;
+    }
+    
 }
 
 function anteriorEpisodio(){
-    let epi = parseInt(id, 10) - 1;
-    window.location="https://www.animefree.ga/Directorio/Demon-Slayer/Episodio" + epi;
+    if (id == 10000) {
+        window.location="https://www.animefree.ga/Directorio/Demon-Slayer/Episodio26"
+    } else {
+        let epi = parseInt(id, 10) - 1;
+        window.location="https://www.animefree.ga/Directorio/Demon-Slayer/Episodio" + epi;
+    }
+    
 }
