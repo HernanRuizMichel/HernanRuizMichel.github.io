@@ -39,7 +39,7 @@ function ocultarAnterior(){
 ocultarSiguiente();
 
 function ocultarSiguiente(){
-    if (id == 17) {
+    if (id == 18) {
         botonSiguienteO.style.display = "none";
     }
 }
